@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Details
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contact.css">
+    <script src="https://kit.fontawesome.com/13127555ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="header">
+    <nav id="navBar">
+      <a href="hotel.html">
+        <img class="logo" src="/images/logo-red.png">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Popular Places</a></li>
+        <li><a href="#">Travel Outside</a></li>
+        <li><a href="listing.html">Online Packages</a></li>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+  </div>
+  <div class="container">
+    <form class="left" action="https://api.web3forms.com/submit" method="POST">
+      <div class="left-title">
+        <h1> Get in Touch</h1>
+        <hr>
+      </div>
+      <input type="hidden" name="access_key" value="3094079c-ed22-43e2-ad69-babd3fe0c7eb">
+      <input type="text" name="name" placeholder="Your Name" class="inputs" required>
+      <input type="email" name="email" placeholder="Your Email" class="inputs" required>
+      <textarea name="message" placeholder="Your Message" class="inputs"></textarea>
+      <button type="submit"> Submit <img src="/images/arrow_icon.png"> </button>
+    </form>
+    <div class="right">
+      <img class="logo" src="/images/right-logo.png">
+    </div>
+  </div>
+</body>
